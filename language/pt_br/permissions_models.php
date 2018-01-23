@@ -5,7 +5,7 @@
  * @copyright (c) 2015 Zoddo <zoddo.ino@gmail.com>
  * @copyright (c) 2007 Elglobo <http://www.phpbb-services.com>
  * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
- *
+ * Brazilian Portuguese translation by eunaumtenhoid (c) 2018 [ver 1.1.0] (https://github.com/phpBBTraducoes)
  */
 
 if (!defined('IN_PHPBB'))
@@ -37,11 +37,11 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	// ACP
-	'ACL_A_MODELS'					=> 'Can manage post models',
+	'ACL_A_MODELS'					=> 'Pode gerenciar post models',
 
 	// Forum
-	'ACL_F_MODELS'					=> 'Can use post models',
+	'ACL_F_MODELS'					=> 'Pode usar post models',
 
 	// UCP
-	'ACL_U_PM_MODELS'				=> 'Can use post models',
+	'ACL_U_PM_MODELS'				=> 'Pode usar post models',
 ));

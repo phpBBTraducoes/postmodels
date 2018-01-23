@@ -5,7 +5,7 @@
  * @copyright (c) 2015 Zoddo <zoddo.ino@gmail.com>
  * @copyright (c) 2007 Elglobo <http://www.phpbb-services.com>
  * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
- *
+ * Brazilian Portuguese translation by eunaumtenhoid (c) 2018 [ver 1.1.0] (https://github.com/phpBBTraducoes)
  */
 
 if (!defined('IN_PHPBB'))
@@ -37,11 +37,11 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	// ACP Modules
-	'ACP_MODELS'					=> 'Post models',
-	'ACP_MODELS_EXPLAIN'			=> 'Here you can manage the post models that autorized users will be abble to use to create their messages.',
+	'ACP_MODELS'					=> 'Modelos de posts',
+	'ACP_MODELS_EXPLAIN'			=> 'Aqui você pode gerenciar os modelos de posts que os usuários autorizados poderão usar para criar suas mensagens.',
 
 	// Admin logs
-	'LOG_MODEL_ADDED'		=> '<strong>Added post model</strong><br />» %s',
-	'LOG_MODEL_REMOVED'		=> '<strong>Removed post model</strong><br />» %s',
-	'LOG_MODEL_UPDATED'		=> '<strong>Updated post model</strong><br />» %s',
+	'LOG_MODEL_ADDED'		=> '<strong>Modelo de post adicionado</strong><br />» %s',
+	'LOG_MODEL_REMOVED'		=> '<strong>Modelo de post removido</strong><br />» %s',
+	'LOG_MODEL_UPDATED'		=> '<strong>Modelo de post atualizado</strong><br />» %s',
 ));

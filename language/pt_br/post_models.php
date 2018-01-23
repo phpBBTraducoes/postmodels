@@ -5,7 +5,7 @@
  * @copyright (c) 2015 Zoddo <zoddo.ino@gmail.com>
  * @copyright (c) 2007 Elglobo <http://www.phpbb-services.com>
  * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
- *
+ * Brazilian Portuguese translation by eunaumtenhoid (c) 2018 [ver 1.1.0] (https://github.com/phpBBTraducoes)
  */
 
 if (!defined('IN_PHPBB'))
@@ -36,8 +36,8 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'INSERT'			=> 'Insert',
-	'MODELS_POST'		=> 'Post models',
-	'NO_MODEL'			=> 'No model to insert',
-	'SELECT_MODEL'		=> 'Select a post model',
+	'INSERT'			=> 'Inserir',
+	'MODELS_POST'		=> 'Modelos de posts',
+	'NO_MODEL'			=> 'Nenhum modelo para inserir',
+	'SELECT_MODEL'		=> 'Selecione um modelo de post',
 ));
