@@ -5,7 +5,7 @@
  * @copyright (c) 2015 Zoddo <zoddo.ino@gmail.com>
  * @copyright (c) 2007 Elglobo <http://www.phpbb-services.com>
  * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
- *
+ * Brazilian Portuguese translation by eunaumtenhoid (c) 2018 [ver 1.1.0] (https://github.com/phpBBTraducoes)
  */
 
 if (!defined('IN_PHPBB'))
@@ -36,28 +36,28 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'ADD_NEW_MODEL'			=> 'Add new post model',
-	'FOUNDERS'				=> 'Founders',
-	'MODEL'					=> 'Model',
-	'MODEL_ADD'				=> 'Add post model',
-	'MODEL_ADDED'			=> 'Post model successfully added.',
-	'MODEL_AUTH'			=> 'Model permission',
-	'MODEL_AUTH_EXPLAIN'	=> 'Define the required permission to view this model. <br />You will have to also authorize users to use post models by setting the appropriate permission.',
-	'MODEL_ALREADY_EXIST'	=> 'A model with this title already exist, please enter another title for this model.',
-	'MODEL_CONTENT'			=> 'Model content',
-	'MODEL_CONTENT_EXPLAIN'	=> 'The model content will be inserted such as it in the message body',
-	'MODEL_EDIT'			=> 'Edit post model',
-	'MODEL_EDIT_EXPLAIN'	=> 'Here you are able to add or edit a post model.',
-	'MODEL_LANGUAGE'		=> 'Model language',
-	'MODEL_PM'				=> 'Display in private messaging',
-	'MODEL_PM_EXPLAIN'		=> 'You will have to also authorize users to use post models in private messaging by setting the appropriate permission.',
-	'MODEL_SETTINGS'		=> 'Model settings',
-	'MODEL_TITLE'			=> 'Model name',
-	'MODEL_UPDATED'			=> 'Post model successfully updated.',
-	'MODEL_REMOVED'			=> 'Post model successfully removed.',
+	'ADD_NEW_MODEL'			=> 'Adicionar novo modelo de post',
+	'FOUNDERS'				=> 'Fundadores',
+	'MODEL'					=> 'Modelo',
+	'MODEL_ADD'				=> 'Adicionar modelo de post',
+	'MODEL_ADDED'			=> 'Modelo de post adicionado com sucesso.',
+	'MODEL_AUTH'			=> 'Modelo de permissão',
+	'MODEL_AUTH_EXPLAIN'	=> 'Defina a permissão necessária para visualizar este modelo. <br /> Você também terá que autorizar os usuários a utilizar modelos de postagem definindo a permissão apropriada.',
+	'MODEL_ALREADY_EXIST'	=> 'Já existe um modelo com este título, insira outro título para este modelo.',
+	'MODEL_CONTENT'			=> 'Conteúdo do modelo',
+	'MODEL_CONTENT_EXPLAIN'	=> 'O conteúdo do modelo será inserido, como ele no corpo da mensagem',
+	'MODEL_EDIT'			=> 'Editar modelo de post',
+	'MODEL_EDIT_EXPLAIN'	=> 'Aqui você pode adicionar ou editar um modelo de post.',
+	'MODEL_LANGUAGE'		=> 'Idioma do modelo',
+	'MODEL_PM'				=> 'Exibir em mensagens privadas',
+	'MODEL_PM_EXPLAIN'		=> 'Você também deve autorizar os usuários a usar modelos de postagem em mensagens privadas, definindo a permissão apropriada.',
+	'MODEL_SETTINGS'		=> 'Configurações do modelo',
+	'MODEL_TITLE'			=> 'Nome do modelo',
+	'MODEL_UPDATED'			=> 'Modelo de post atualizado com sucesso.',
+	'MODEL_REMOVED'			=> 'Modelo de post removido com sucesso.',
 
-	'NO_EXIST'				=> 'The language pack is no longer available.',
-	'NO_MODEL_INFO'			=> 'You must specify a title, a content and a language for your model.',
-	'NO_MODEL'				=> 'Post model could not be found.',
-	'NO_PERMISSIONS'		=> 'You don’t have the required permission to manage post models.',
+	'NO_EXIST'				=> 'O pacote de idiomas não está mais disponível.',
+	'NO_MODEL_INFO'			=> 'Você deve especificar um título, um conteúdo e um idioma para o seu modelo.',
+	'NO_MODEL'				=> 'O modelo de post não pôde ser encontrado.',
+	'NO_PERMISSIONS'		=> 'Você não possui a permissão necessária para gerenciar modelos de postagem.',
 ));
