@@ -37,11 +37,11 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	// ACP
-	'ACL_A_MODELS'					=> 'Pode gerenciar post models',
+	'ACL_A_MODELS'					=> 'Pode gerenciar modelos de post',
 
 	// Forum
-	'ACL_F_MODELS'					=> 'Pode usar post models',
+	'ACL_F_MODELS'					=> 'Pode usar modelos de post',
 
 	// UCP
-	'ACL_U_PM_MODELS'				=> 'Pode usar post models',
+	'ACL_U_PM_MODELS'				=> 'Pode usar modelos de post',
 ));
